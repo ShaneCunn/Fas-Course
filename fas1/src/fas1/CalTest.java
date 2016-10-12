@@ -66,10 +66,16 @@ class CalTest {
         if (y == 0) {
             System.out.println("Error you can't divide by Zero!!");
             return 0;
-        } else {
+        } else if(x == 0){
+        	
+            System.out.println("Error you can't divide by Zero!!");
+
+        }
+        	else {
+        }
             return x / y;
         }
-    }
+    
 
     private static double multi(double x, double y) {
         return x * y;
