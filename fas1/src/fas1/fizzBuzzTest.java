@@ -10,21 +10,21 @@ public class fizzBuzzTest {
 
 			if (i % 15 == 0) {
 
-				System.out.println("FizzBuzzWoof");
+				System.out.println("FizzBuzzWoof " + i);
 			}
 
 			else if (i % 3 == 0) {
 
-				System.out.println("fizz");
+				System.out.println("fizz " + i);
 
 			} else if (i % 5 == 0) {
 
-				System.out.println("buzz");
+				System.out.println("buzz " + i);
 			}
 
 			else if (i % 7 == 0) {
 
-				System.out.println("woof");
+				System.out.println("woof " + i);
 
 			}
 
