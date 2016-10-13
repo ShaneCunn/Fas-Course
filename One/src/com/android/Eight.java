@@ -14,6 +14,17 @@ public class Eight {
 			 System.out.println("the number is: " + j);
 		 }
 		
+		 
+		 int counter = 10;
+		 
+		 while (counter >10  ){
+			counter++;
+			 System.out.println("counter is: " + counter);
+			 
+			 
+			 
+		 }
+		  
 		
 	}
 
