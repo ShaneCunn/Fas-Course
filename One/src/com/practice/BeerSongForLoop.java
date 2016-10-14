@@ -10,12 +10,16 @@ public class BeerSongForLoop {
 		int beerNum = 99;
 		String word = "bottles";
 		
+		// while beerNum is 99 it decreases the counter by 1
 
-		for (beerNum = 99; beerNum > 0; beerNum--) {  // while beerNum is 99 it decreases the counter by 1
+		for (beerNum = 99; beerNum > 0; beerNum--) { 
+			
+			// added check to change from bottles to bottle when beerNum == 1
 			if(beerNum == 1){
-				word ="bottle"; // added check to change from bottles to bottle when beerNum == 1
+				word ="bottle"; 
 			}
-			System.out.print(beerNum + " " + word + " of beer on the wall, "); // print out the value of beerNum and word
+			// print out the value of beerNum and word
+			System.out.print(beerNum + " " + word + " of beer on the wall, "); 
 			System.out.println(beerNum + " " + word + " of beer.");
 			System.out.println("Take one down and Pass it around.");
 		}
@@ -24,7 +28,9 @@ public class BeerSongForLoop {
 		}
 
 		else {
-			System.out.println("No more bottles of beer on the wall"); // if beerNum is 0 it prints this
+			
+			// if beerNum is 0 it prints this
+			System.out.println("No more bottles of beer on the wall"); 
 		}
 	}
 

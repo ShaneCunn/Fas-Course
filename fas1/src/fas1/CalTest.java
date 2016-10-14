@@ -7,6 +7,8 @@ class CalTest {
 	public static void main(String[] args) {
 
 		boolean exitCal = false;
+		
+		
 		while (!exitCal) {
 			System.out.println("Simple Calculator\n");
 
