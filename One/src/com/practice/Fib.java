@@ -2,7 +2,7 @@ package com.practice;
 
 import java.util.Scanner;
 
-public class Fib {
+class Fib {
 	
 	
 	

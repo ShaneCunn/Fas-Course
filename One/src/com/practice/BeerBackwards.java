@@ -1,32 +1,32 @@
 package com.practice;
 
-public class BeerBackwards {
+class BeerBackwards {
 
-	public static String storage[] = { " green bottles of beer on the wall", " and if ",
-			" green bottle should accidently fall, ", "They'll be ", " green bottle hanging on the wall", "no bottles of beer on the wall" };
+    private static final String[] storage = {" green bottles of beer on the wall", " and if ",
+            " green bottle should accidently fall, ", "They'll be ", " green bottle hanging on the wall", "no bottles of beer on the wall"};
 
-	public static void songstuff(int number) {
+    private static void songstuff(int number) {
 
-		System.out.println(number + storage[0] + storage[1] + number + storage[2]+ storage[3]);
+        System.out.println(number + storage[0] + storage[1] + number + storage[2] + storage[3]);
 
-	}
+    }
 
-	public static void songPrint(int number) {
-		if (number == 1) {
+    public static void songPrint(int number) {
+        if (number == 1) {
 
-			System.out.println(number + storage[4]);
+            System.out.println(number + storage[4]);
 
-		}
-		
-		if (number == 0) {
+        }
 
-			System.out.println(storage[3] + storage[5]);
+        if (number == 0) {
 
-		} else {
+            System.out.println(storage[3] + storage[5]);
 
-			songstuff(number);
-			songPrint(number-1);
-		}
+        } else {
 
-	}
+            songstuff(number);
+            songPrint(number - 1);
+        }
+
+    }
 }

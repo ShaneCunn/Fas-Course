@@ -8,15 +8,15 @@ package com.practice;
 	import javax.swing.JFrame;
 	import javax.swing.JOptionPane;
 	import javax.swing.JTextArea;
-	public class BeerSwing extends JFrame implements ActionListener{
+	class BeerSwing extends JFrame implements ActionListener{
 	        private int x;
-	        private JButton take;
-	        private JTextArea text;
+	        private final JButton take;
+	        private final JTextArea text;
 	        public static void main(String[] args){
 	                new BeerSwing();//build and show the GUI
 	        }
 	 
-	        public BeerSwing(){
+	        private BeerSwing(){
 	                x= 9;
 	                take= new JButton("Take one down, pass it around");
 	                text= new JTextArea(4,30);//size the area to 4 lines, 30 chars each

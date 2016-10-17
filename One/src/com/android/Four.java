@@ -2,97 +2,120 @@ package com.android;
 
 import java.util.Scanner;
 
-public class Four {
+class output {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
-		String loc, Sex;
-		// boolean sex = false;
+}
 
-		boolean runTest = false;
+class Four {
 
-		double[] value = { 500, 1000, 2000, 750, 1250, 3000 };
+    public static void main(String[] args) {
 
-		double[] valueBelow25 = { 900, 1500, 2500, 1750, 2250, 4000 };
+        // TODO Auto-generated method stub
 
-		while (!runTest) {
+        String loc, Sex;
+        // boolean sex = false;
 
-			System.out.println("################################\nSimple policy Calculator\n");
+        boolean runTest = false;
 
-			Scanner input = new Scanner(System.in);
-			System.out.println("enter  male or female here : ");
-			Sex = input.next();
+        double[] value = {500, 1000, 2000, 750, 1250, 3000};
 
-			System.out.println("enter location here : ");
-			loc = input.next();
-			System.out.println("enter age here : ");
+        double[] valueBelow25 = {900, 1500, 2500, 1750, 2250, 4000};
 
-			int age = input.nextInt();
+        while (!runTest) {
 
-			if (age >= 25) {
-				if (Sex.equals("female")) {
-					if (loc.equals("galway")) {
+            System.out.println("################################\nSimple policy Calculator\n");
 
-						System.out.println("policy = " + value[1]);
+            Scanner input = new Scanner(System.in);
+            System.out.println("enter  male or female here : ");
+            Sex = input.next();
 
-					} else if (loc.equals("dublin")) {
+            System.out.println("enter location here : ");
+            loc = input.next();
+            System.out.println("enter age here : ");
 
-						System.out.println("policy = " + value[2]);
+            int age = input.nextInt();
 
-					} else {
-						System.out.println("policy = " + value[3]);
 
-					}
-				} else if (Sex.equals("male")) {
+            if (age >= 25) {
+                if (Sex.equals("female")) {
+                    switch (loc) {
+                        case "galway":
 
-					if (loc.equals("galway")) {
+                            System.out.println("policy = " + value[1]);
 
-						System.out.println("policy = " + value[4]);
+                            break;
+                        case "dublin":
 
-					} else if (loc.equals("dublin")) {
+                            System.out.println("policy = " + value[2]);
 
-						System.out.println("policy = " + value[5]);
+                            break;
+                        default:
+                            System.out.println("policy = " + value[3]);
 
-					} else {
-						System.out.println("policy = " + value[6]);
+                            break;
+                    }
+                } else if (Sex.equals("male")) {
 
-					}
-				} else if (age < 25) {
+                    switch (loc) {
+                        case "galway":
 
-					if (Sex.equals("female")) {
-						if (loc.equals("galway")) {
+                            System.out.println("policy = " + value[4]);
 
-							System.out.println("policy = " + valueBelow25[1]);
+                            break;
+                        case "dublin":
 
-						} else if (loc.equals("dublin")) {
+                            System.out.println("policy = " + value[5]);
 
-							System.out.println("policy = " + valueBelow25[2]);
+                            break;
+                        default:
+                            System.out.println("policy = " + value[6]);
 
-						} else {
-							System.out.println("policy = " + valueBelow25[3]);
+                            break;
+                    }
+                } else if (age < 25) {
 
-						}
-					} else if (Sex.equals("male")) {
+                    if (Sex.equals("female")) {
+                        switch (loc) {
+                            case "galway":
 
-						if (loc.equals("galway")) {
+                                System.out.println("policy = " + valueBelow25[1]);
 
-							System.out.println("policy = " + valueBelow25[4]);
+                                break;
+                            case "dublin":
 
-						} else if (loc.equals("dublin")) {
+                                System.out.println("policy = " + valueBelow25[2]);
 
-							System.out.println("policy = " + valueBelow25[5]);
+                                break;
+                            default:
+                                System.out.println("policy = " + valueBelow25[3]);
 
-						} else {
-							System.out.println("policy = " + valueBelow25[6]);
+                                break;
+                        }
+                    } else if (Sex.equals("male")) {
 
-						}
+                        switch (loc) {
+                            case "galway":
 
-					}
-				}
+                                System.out.println("policy = " + valueBelow25[4]);
 
-			}
+                                break;
+                            case "dublin":
 
-		}
-	}
+                                System.out.println("policy = " + valueBelow25[5]);
+
+                                break;
+                            default:
+                                System.out.println("policy = " + valueBelow25[6]);
+
+                                break;
+                        }
+
+                    }
+                }
+
+            }
+
+        }
+    }
 }

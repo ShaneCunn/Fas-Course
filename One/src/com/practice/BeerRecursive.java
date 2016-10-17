@@ -2,7 +2,7 @@ package com.practice;
 
 import java.util.Scanner;
 
-public class BeerRecursive {
+class BeerRecursive {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -12,18 +12,18 @@ public class BeerRecursive {
 		System.out.println("enter number of bottles");
 		int numOfBottles = keyboard.nextInt();
 
-		singAcounter(numOfBottles);
+		singAcounter();
 
 	}
 
-	public static void singAcounter(int counter) {
+	private static void singAcounter() {
 		
 		
-		for(counter> 0; counter--){
+		//for(counter> 0; counter--){
 			
 			
 			
-		}
+		//}
 
 	}
 

@@ -1,6 +1,6 @@
 package com.android;
 
-public class Ten {
+class Ten {
 
 	public static void main(String[] args) {
 

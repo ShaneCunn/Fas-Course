@@ -2,7 +2,7 @@ package com.android;
 
 import java.util.Scanner;
 
-public class Three {
+class Three {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -31,26 +31,27 @@ public class Three {
 
 			name = input.next();
 
-			if (name.equals("mary")) {
+            switch (name) {
+                case "mary":
 
-				System.out.println(name + " goes into the vip area");
+                    System.out.println(name + " goes into the vip area");
 
-			} else if (name.equals("pat")) {
+                    break;
+                case "pat":
 
-				System.out.println(name + " goes into the general area");
+                    System.out.println(name + " goes into the general area");
 
-			}
+                    break;
+                case "john":
 
-			else if (name.equals("john")) {
+                    System.out.println(name + " goes into the drunks areas.");
+                    break;
+                default:
 
-				System.out.println(name + " goes into the drunks areas.");
-			}
+                    System.out.println(name + " is barred from the club");
 
-			else {
-
-				System.out.println(name + " is barred from the club");
-
-			}
+                    break;
+            }
 
 		}
 

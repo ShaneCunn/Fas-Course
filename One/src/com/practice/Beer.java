@@ -2,7 +2,7 @@ package com.practice;
 
 import java.util.Scanner;
 
-public class Beer {
+class Beer {
 	public static void main(String args[]) {
 
 		Scanner keyboard = new Scanner(System.in);

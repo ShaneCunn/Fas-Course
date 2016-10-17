@@ -1,18 +1,15 @@
 package com.android;
 
 import java.util.ArrayList;
-import java.util.Scanner;
 
-import javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardDownRightHandler;
-
-public class Main {
+class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
 		System.out.println("test out");
 
-		ArrayList<Integer> testList = new ArrayList<Integer>(5);
+		ArrayList<Integer> testList = new ArrayList<>(5);
 
 		testList.add(43);
 		testList.add(133);

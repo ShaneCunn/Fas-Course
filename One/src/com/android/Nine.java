@@ -1,6 +1,6 @@
 package com.android;
 
-public class Nine {
+class Nine {
 
 	public static void main(String[] args) {
 
@@ -15,7 +15,7 @@ public class Nine {
 		}
 		
 		
-		while(int j = 0;int j< testArray.length; j++){
+		//while(int j = 0;int j< testArray.length; j++){
 
 	}
 }

@@ -1,6 +1,6 @@
 package com.practice;
 
-public class BeerSongWhile {
+class BeerSongWhile {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
