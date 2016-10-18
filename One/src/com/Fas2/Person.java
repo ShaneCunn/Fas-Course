@@ -1,6 +1,6 @@
 package com.Fas2;
 
-public class Person {
+class Person {
 	
 	
 	double weight, height;

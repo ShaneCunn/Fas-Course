@@ -23,7 +23,7 @@ class CalTest {
 			num2 = keyboard.nextDouble();
 
 			System.out.println("Selected operators, select:\n1  to add\n2 to divide\n3 to multi\n"
-					+ "4 to substract\n0 to close calculator");
+					+ "4 to subtract\n0 to close calculator");
 
 			numOper = keyboard.nextInt();
 
@@ -72,7 +72,6 @@ class CalTest {
 
 			System.out.println("Error you can't divide by Zero!!");
 
-		} else {
 		}
 		return x / y;
 	}

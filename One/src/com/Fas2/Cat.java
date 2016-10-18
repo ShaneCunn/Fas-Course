@@ -1,10 +1,8 @@
 package com.Fas2;
 
-public class Cat {
+class Cat {
 
-	double weight, height;
 
-	String name;
 	
 	Cat(double myWeight, double  myHeight, String myName){
 		
