@@ -12,7 +12,7 @@ public class Dog {
 		this.name = name;
 		this.weight = weight;
 
-		System.out.println("dog constructor called with Arguments passed to it");
+		System.out.println("dog constructor called with Arguments passed to it\n");
 		
 		
 		System.out.println("dog age "+ age+ "\ndog name ="+ name+ "\ndog weight = "+ weight);
