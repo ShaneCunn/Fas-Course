@@ -35,6 +35,45 @@ public class ThirtyOne {
 
 		// it tries to free up the memory
 
+		Trainee test = new Trainee("test", 651, 232312);
+
+		saraah = test;
+
+		// it called derefeerncing
+
+	}
+
+	static void ex2() {
+
+		int age = 1123;
+		String name = "test";
+
+		String gender = "false";
+		double weight = 12;
+	//	boolean sex = false;
+		//Cat fred = new Cat(age, name, gender, weight);
+	}
+
+	class Cat {
+		int age;
+		String name, gender;
+		double weight;
+		boolean sex;
+
+		public Cat(int age, String name, String gender, double weight) {
+			super();
+			this.age = age;
+			this.name = name;
+			this.gender = gender;
+			this.weight = weight;
+
+			if (sex == true)
+				gender = "Female";
+			else
+				gender = "Male";
+
+		}
+
 	}
 
 }
