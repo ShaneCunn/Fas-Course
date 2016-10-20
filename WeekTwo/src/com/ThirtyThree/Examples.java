@@ -21,7 +21,7 @@ public class Examples {
 
 		System.out.println(test3);
 
-		System.out.println("in uppercase" + test3.trim()+ test3.toUpperCase());
+		System.out.println("in uppercase" + test3.trim() + test3.toUpperCase());
 
 	}
 
