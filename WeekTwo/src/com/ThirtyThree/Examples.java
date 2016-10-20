@@ -23,6 +23,37 @@ public class Examples {
 
 		System.out.println("in uppercase" + test3.trim() + test3.toUpperCase());
 
+		String smaller = test3.trim();
+
+		System.out.println("concate : " + smaller.concat(str2));
+
+		System.out.println("concate : " + smaller.codePointCount(7, smaller.length()));
+
+		// System.out.println("concate : " + smaller.replace(targe,
+		// replacement));
+
+	}
+
+	static void stringBuilder() {
+
+		StringBuilder sb = new StringBuilder("Hello there");
+
+		StringBuilder test = sb;
+		System.out.println("before   " + sb);
+		test.append(10);
+		test.append("top");
+		test.append("!");
+		test.append(true);
+		test.append(2.99);
+		System.out.println("after   " + test);
+
+	}
+
+	class Cat {
+
+		int age;
+		String name; 
+
 	}
 
 }
