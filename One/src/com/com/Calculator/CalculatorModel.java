@@ -6,28 +6,20 @@ package com.com.Calculator;
 public class CalculatorModel {
 
 
-    private int calculatorValue;
+    // Holds the value of the sum of the numbers
+    // entered in the view
 
-    public void addNumber(int firstNumber, int secondNumber) {
+    private int calculationValue;
 
+    public void addTwoNumbers(int firstNumber, int secondNumber){
 
-        calculatorValue = firstNumber + secondNumber;
-
+        calculationValue = firstNumber + secondNumber;
 
     }
 
+    public int getCalculationValue(){
 
-    public int returnValue(){
+        return calculationValue;
 
-
-        return calculatorValue;
-    }
-
-
-    public static void main(String args[]) {
-        String test = "hello shane";
-
-
-        System.out.println(test);
     }
 }

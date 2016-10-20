@@ -53,11 +53,11 @@ public class TestArrayList {
 		}
 		// Iterator list = itr.List
 
-		ListIterator<itr> litr() ;
+		//ListIterator<itr> litr();
 
 		System.out.println("Part 3 in reverse");
 
-		while (litr.hasPrevious()) {
+	/*	while (litr.hasPrevious()) {
 			
 			
 			Object elementPArt = litr.previous();
@@ -66,7 +66,7 @@ public class TestArrayList {
 			
 			
 
-		}
+		}*/
 
 	}
 

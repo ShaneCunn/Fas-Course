@@ -23,8 +23,8 @@ class Accountant extends Employee {
 	boolean healthPlan;
 
 	void works() {
-		
-		System.out.println(" i am accountant and call other classes");
+
+		System.out.println("i am accountant and call other classes");
 		billing();
 		calcBudget();
 		calcWages();
@@ -49,3 +49,26 @@ class Accountant extends Employee {
 	}
 
 }
+
+class ForensicAccountant extends Accountant {
+
+}
+
+
+
+class CharteredACC extends Accountant{
+	
+	void works(){
+		System.out.println("I am Chartered accountant");
+
+		
+	}
+	
+}
+
+
+
+
+
+
+

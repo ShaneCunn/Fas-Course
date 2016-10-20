@@ -15,6 +15,9 @@ public class TwentySeven {
 		bob.works();
 		
 		
+		CharteredACC teddy = new CharteredACC();
+		teddy.works();
+		
 
 	}
 
