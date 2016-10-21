@@ -8,6 +8,10 @@ public class ThirtyFive {
 		
 		
 		System.out.println("test out");
+		
+		Examples.ex1();
+		
+		
 	}
 
 }
