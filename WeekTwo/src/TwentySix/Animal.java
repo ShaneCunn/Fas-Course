@@ -1,11 +1,11 @@
 package TwentySix;
 
 // super or parent class
-public class Animal {
+class Animal {
 
 	int age = 5;
-	String name = "spot";
-	Double weight = 7.0;
+	private String name = "spot";
+	private Double weight = 7.0;
 
 	void eat() {
 

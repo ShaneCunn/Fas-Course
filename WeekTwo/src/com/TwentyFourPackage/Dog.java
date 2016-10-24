@@ -1,11 +1,11 @@
 package com.TwentyFourPackage;
 
-public class Dog {
+class Dog {
 
 	
-	int age = 5;
-	String  name= "spot";
-	Double weight = 7.0;
+	private int age = 5;
+	private String  name= "spot";
+	private Double weight = 7.0;
 	
 	
 	Dog(int age, String name, double weight){

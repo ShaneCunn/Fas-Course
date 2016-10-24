@@ -2,7 +2,7 @@ package com.ThirtyFour;
 
 // a interface is a purely abstract class
 
-public interface behaviour {
+interface behaviour {
 
 	// by default these are Abstract and public
 
@@ -14,7 +14,7 @@ public interface behaviour {
 
 	void scared();
 
-	void frusated(double num, String name);
+	void frusated();
 	
 	
 	

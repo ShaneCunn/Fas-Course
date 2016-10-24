@@ -2,7 +2,7 @@ package ThirtyFive;
 
 import java.util.ArrayList;
 
-public class Examples {
+class Examples {
 
 	// ArrayLists
 
@@ -50,7 +50,7 @@ public class Examples {
 
 		Double Dnum = new Double(12.4);
 
-		Boolean Btest = new Boolean(false);
+		Boolean Btest = Boolean.FALSE;
 
 		Character TestChar = new Character('t');
 

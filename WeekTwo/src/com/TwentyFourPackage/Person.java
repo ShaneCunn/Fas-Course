@@ -1,23 +1,23 @@
 package com.TwentyFourPackage;
 
-public class Person {
+class Person {
 	
-	int age = 5;
-	String  name= "spot";
-	Double weight = 7.0;
-	
-	
+	private int age = 5;
+	private String  name= "spot";
+	private Double weight = 7.0;
 	
 	
-	Person(int age, String name,double weight){
+	
+	
+	Person(String name, double weight){
 		
-		this.age =age;
+		this.age = 12;
 		this.name = name;
 		this.weight = weight;
 		
 		System.out.println("this is the person class constructor");
 		
-		System.out.println("the age is: "+ age+ "\njthe name is :"+ name+"\nthe weight is:"+ weight);
+		System.out.println("the age is: "+ 12 + "\njthe name is :"+ name+"\nthe weight is:"+ weight);
 
 		
 		

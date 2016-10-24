@@ -1,6 +1,6 @@
 package TwentySix;
 
-public class TwentySix {
+class TwentySix {
 
 	public static void main(String args[]) {
 
@@ -40,11 +40,11 @@ public class TwentySix {
 
 		}
 
-		for (int i = 0; i < zoo.length; i++) {
+        for (TwentySix.Animal aZoo : zoo) {
 
-			zoo[i].eat();
+            aZoo.eat();
 
-		}
+        }
 
 	}
 

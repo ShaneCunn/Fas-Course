@@ -1,6 +1,6 @@
 package com.ThirtyFour;
 
-public interface Movement {
+interface Movement {
 
 	void walk();
 

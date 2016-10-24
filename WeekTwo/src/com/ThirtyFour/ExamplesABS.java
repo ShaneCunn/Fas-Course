@@ -1,6 +1,6 @@
 package com.ThirtyFour;
 
-public class ExamplesABS {
+class ExamplesABS {
 
 	class Mammal extends AnimalABS {
 
@@ -25,7 +25,7 @@ public class ExamplesABS {
 		
 		fred.angry();
 		
-		fred.frusated(12, "shane");
+		fred.frusated();
 		
 		
 		// a behaviour  interface refereence can

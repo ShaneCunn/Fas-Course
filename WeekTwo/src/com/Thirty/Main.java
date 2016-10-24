@@ -1,10 +1,10 @@
 package com.Thirty;
 
-public class Main {
+class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Dog spot=new Dog(2, "spot", 2.3, 4.5);
+		Dog spot=new Dog();
 		spot.setHeight(7);
 		System.out.println("height of spot is "+spot.getHeight());
 		/*

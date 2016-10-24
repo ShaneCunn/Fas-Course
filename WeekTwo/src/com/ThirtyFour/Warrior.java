@@ -35,7 +35,7 @@ public class Warrior implements behaviour {
 	}
 
 	@Override
-	public void frusated(double num, String name) {
+	public void frusated() {
 		// TODO Auto-generated method stub
 
 		System.out.println("my happiest is:" + num + "my name is:" + name);
@@ -46,7 +46,7 @@ public class Warrior implements behaviour {
 
 class Wizard implements behaviour, Movement {
 	int age;
-	String name;
+	private String name;
 
 	@Override
 	public void walk() {
@@ -103,7 +103,7 @@ class Wizard implements behaviour, Movement {
 	}
 
 	@Override
-	public void frusated(double num, String name) {
+	public void frusated() {
 		System.out.println("wizard is:" + num + "my name is:" + name);
 
 	}

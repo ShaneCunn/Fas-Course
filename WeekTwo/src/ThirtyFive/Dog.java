@@ -1,9 +1,9 @@
 package ThirtyFive;
 
-public class Dog {
+class Dog {
 
-	int age;
-	String name;
+	private int age;
+	private String name;
 
 	Dog(int age, String name) {
 

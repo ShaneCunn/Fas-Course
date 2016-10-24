@@ -1,6 +1,6 @@
 package TwentySeven;
 
-public class Employee {
+class Employee {
 
 	int pps;
 	String name;
@@ -30,19 +30,19 @@ class Accountant extends Employee {
 		calcWages();
 	}
 
-	void billing() {
+	private void billing() {
 
 		System.out.println("I do billing");
 
 	}
 
-	void calcWages() {
+	private void calcWages() {
 
 		System.out.println("I do billing");
 
 	}
 
-	void calcBudget() {
+	private void calcBudget() {
 
 		System.out.println("I do Budget");
 

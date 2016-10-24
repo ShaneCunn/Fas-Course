@@ -1,6 +1,6 @@
 package com.TwentyThree;
 
-public class Dog {
+class Dog {
 	
 	
 	int age = 5;

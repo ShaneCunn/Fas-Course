@@ -1,6 +1,6 @@
 package com.TwentyThree;
 
-public class Swan {
+class Swan {
 
 	String name = "fred";
 	Double weight = 3.4;

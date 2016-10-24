@@ -1,6 +1,6 @@
 package ThirtyFive;
 
-public class ThirtyFive {
+class ThirtyFive {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -1,6 +1,6 @@
 package com.TwentyFourPackage;
 
-public class Maths {
+class Maths {
 
 	void printMe(int[] myArray) {
 

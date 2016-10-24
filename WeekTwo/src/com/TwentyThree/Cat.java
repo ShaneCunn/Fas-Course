@@ -1,6 +1,6 @@
 package com.TwentyThree;
 
-public class Cat {
+class Cat {
 	
 	
 

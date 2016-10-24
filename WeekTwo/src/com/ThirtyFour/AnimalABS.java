@@ -1,6 +1,6 @@
 package com.ThirtyFour;
 
-public abstract class AnimalABS {
+abstract class AnimalABS {
 
 	int weight, age;
 

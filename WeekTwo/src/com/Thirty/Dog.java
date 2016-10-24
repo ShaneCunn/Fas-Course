@@ -1,10 +1,10 @@
 package com.Thirty;
 
-public class Dog {
+class Dog {
 	/*
 	 * available to all classes everywhere
 	 */
-	public int age;
+	private int age;
 	/*
 	 * only have access to these variables through
 	 * getters and setters
@@ -24,12 +24,12 @@ public class Dog {
 	 * see Dog class method printy()
 	 */
 	protected String colour="red";
-	public Dog(int age, String name, double weight, double height) {
+	public Dog() {
 		super();
-		this.age = age;
-		this.setName(name);
-		this.setWeight(weight);
-		this.setHeight(height);
+		this.age = 2;
+		this.setName();
+		this.setWeight();
+		this.setHeight(4.5);
 	}
 	
 	public Dog() {
@@ -40,16 +40,16 @@ public class Dog {
 		return name;
 	}
 	//for setting the private name variable
-	public void setName(String name) {
-		this.name = name;
+	private void setName() {
+		this.name = "spot";
 	}
 	//for accessing the private weight variable
 	public double getWeight() {
 		return weight;
 	}
 	//for setting the private weight variable
-	public void setWeight(double weight) {
-		this.weight = weight;
+	private void setWeight() {
+		this.weight = 2.3;
 	}
 	//for getting the private height variable
 	public double getHeight() {

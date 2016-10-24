@@ -1,12 +1,12 @@
 package com.TwentyFourPackage;
 
-public abstract class TwentyFourMain {
+abstract class TwentyFourMain {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
 		
-		Person shane = new Person(12, "padraic", 155.34);
+		Person shane = new Person("padraic", 155.34);
 		
 		
 		

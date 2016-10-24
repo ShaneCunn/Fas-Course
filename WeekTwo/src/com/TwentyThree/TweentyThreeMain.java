@@ -1,8 +1,6 @@
 package com.TwentyThree;
 
-import java.awt.event.WindowEvent;
-
-public class TweentyThreeMain {
+class TweentyThreeMain {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -1,6 +1,6 @@
 package com.ThirtyThree;
 
-public class Dog {
+class Dog {
 
 	int age;
 	String Name;

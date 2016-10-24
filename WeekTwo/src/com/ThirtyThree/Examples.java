@@ -1,6 +1,6 @@
 package com.ThirtyThree;
 
-public class Examples {
+class Examples {
 
 	static void Strings() {
 
@@ -49,7 +49,7 @@ public class Examples {
 
 	}
 
-	class Cat {
+	private class Cat {
 
 		int age;
 		String name; 

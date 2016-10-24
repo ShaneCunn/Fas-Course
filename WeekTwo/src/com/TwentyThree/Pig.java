@@ -1,6 +1,6 @@
 package com.TwentyThree;
 
-public class Pig {
+class Pig {
 
 	Pig() {
 
@@ -12,18 +12,18 @@ public class Pig {
 		four();
 	}
 
-	void two() {
+	private void two() {
 
 		System.out.println("2");
 
 	}
 
-	void three() {
+	private void three() {
 		System.out.println("3");
 
 	}
 
-	void four() {
+	private void four() {
 		System.out.println("4");
 
 	}

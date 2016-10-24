@@ -1,17 +1,12 @@
 package com.Thirty.employee;
 
-import java.util.concurrent.SynchronousQueue;
 
-import com.android.Dog;
-
-
-
-public class Test {
-	int age=2;
-	String name="rex";
-	double weight=3.4;
-	double height=2.3;
-	Dog rex = new Dog(age, name, weight, height);
+class Test {
+	private int age=2;
+	private String name="rex";
+	private double weight=3.4;
+	private double height=2.3;
+	private Dog rex = new Dog(age, name, weight, height);
 	
 	void printy(){
 		/*

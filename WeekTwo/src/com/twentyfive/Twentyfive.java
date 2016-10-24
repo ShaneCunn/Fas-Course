@@ -4,7 +4,7 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
-public class Twentyfive {
+class Twentyfive {
 	
 	
 	public static void main(String args[]){
@@ -15,7 +15,7 @@ public class Twentyfive {
 		Dog pippa = new Dog();
 		
 		
-		Dog fred = new Dog(12, "fred", 12.5);
+		Dog fred = new Dog("fred", 12.5);
 		
 		
 	    final JFrame parent = new JFrame();
@@ -26,15 +26,12 @@ public class Twentyfive {
         parent.pack();
         parent.setVisible(true);
 
-        button.addActionListener(new java.awt.event.ActionListener() {
-            @Override
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                String name2 = JOptionPane.showInputDialog(parent,
-                        "What is your name?", null);
-            }
+        button.addActionListener(evt -> {
+            String name2 = JOptionPane.showInputDialog(parent,
+                    "What is your name?", null);
         });
         
-    	Dog fred2 = new Dog(12, "test2",  12.7565654);
+    	Dog fred2 = new Dog("test2",  12.7565654);
 		
 		
 	}

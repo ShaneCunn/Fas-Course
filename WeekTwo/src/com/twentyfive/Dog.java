@@ -1,21 +1,21 @@
 package com.twentyfive;
 
-public class Dog {
+class Dog {
 
-	int age = 5;
-	String name = "spot";
-	Double weight = 7.0;
+	private int age = 5;
+	private String name = "spot";
+	private Double weight = 7.0;
 
-	Dog(int age, String name, double weight) {
+	Dog(String name, double weight) {
 
-		this.age = age;
+		this.age = 12;
 		this.name = name;
 		this.weight = weight;
 
 		System.out.println("dog constructor called with Arguments passed to it\n");
 		
 		
-		System.out.println("dog age "+ age+ "\ndog name ="+ name+ "\ndog weight = "+ weight);
+		System.out.println("dog age "+ 12 + "\ndog name ="+ name+ "\ndog weight = "+ weight);
 
 
 	}

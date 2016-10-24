@@ -29,7 +29,7 @@ public class Soldier implements behaviour {
 	}
 
 	@Override
-	public void frusated(double num, String name) {
+	public void frusated() {
 		System.out.println("Soldier: frus ");
 		
 	}
