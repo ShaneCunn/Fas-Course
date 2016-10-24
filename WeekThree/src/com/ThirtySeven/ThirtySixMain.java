@@ -15,7 +15,7 @@ public class ThirtySixMain {
 		System.out.println("outside the array : ");
 // this will generate a out of bound exception
 		
-		
+		//a try block is a object , it 
 		
 		try {
 			System.out.println("the numbers are : " + arrayNums[7]);
