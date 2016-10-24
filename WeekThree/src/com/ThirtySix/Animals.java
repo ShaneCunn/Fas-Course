@@ -5,17 +5,36 @@ public class Animals {
 	int age = 10;
 	String name = "timmy";
 
+	void run() {
+
+		System.out.println("animal running");
+	}
+
 }
 
 class Dog extends Animals {
 
+	void run() {
+
+		System.out.println("dog running");
+	}
+
 }
 
 class Cat extends Animals {
+	void run() {
+
+		System.out.println("cat running");
+	}
 
 }
 
 class Siamese extends Cat {
+
+	void run() {
+
+		System.out.println("Siamese running");
+	}
 
 }
 
@@ -46,8 +65,20 @@ class Donkey {
 		spot.name = "bob";
 		System.out.println("inside method name is " + spot.age + "\nnew name is: " + spot.name);
 
-		
-		
+	}
+
+	/*
+	 * this can take any animal when you you have a superclass para, you can
+	 * pass in any subclass for example here we have a animal, so we can pass in
+	 * a dog, cat, siamese, then the run method will be called for either , a
+	 * dog, cat, and siamese depending on animal was sent to this method	 * 
+	 * *
+	 */
+
+	void PassSubClass(Animals andy) {
+
+		andy.run();// polymorphic
 
 	}
+
 }

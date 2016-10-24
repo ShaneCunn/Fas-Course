@@ -7,6 +7,12 @@ public class ThirtySixMain {
 		Examples.ex1();
 
 		Examples.ex2();
+		
+		Examples.ex3();
+
+		
+		
+		
 	}
 
 }
