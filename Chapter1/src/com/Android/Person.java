@@ -28,8 +28,9 @@ public class Person {
 	Ape andy = new Ape();
 
 	// a class within a class ie inner classes
-	
-	// this is how to call a class with using a import ie fully qualified name, its isn't used much , but will be used for the exam
+
+	// this is how to call a class with using a import ie fully qualified name,
+	// its isn't used much , but will be used for the exam
 	com.Animal.Mammal.Ape andy3 = new com.Animal.Mammal.Ape();
 
 	private class Heart {
@@ -40,7 +41,8 @@ public class Person {
 
 		Ford, Feista, Volkswagon
 	}
-// TO DO add in Enum switch statement
+
+	// TO DO add in Enum switch statement
 	class Building {
 
 	}
@@ -48,7 +50,5 @@ public class Person {
 	private interface test {
 
 	}
-
-
 
 }
