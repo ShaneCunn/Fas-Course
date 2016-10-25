@@ -23,6 +23,8 @@ public class ChapterOneMain {
 		Monkey fred = new Monkey();
 		
 		fred.angry();
+		
+		fred.happy();
 
 	}
 

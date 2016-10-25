@@ -12,7 +12,7 @@ public interface Behaviour {
 	void sad();
 
 	/*
-	 * default in a interface , allow to give a a default implemementation to a
+	 * default in a interface , allow to give a a default implementation to a
 	 * method
 	 * 
 	 */
@@ -23,10 +23,25 @@ public interface Behaviour {
 	}
 
 	static void statTest() {
-		
+
 		System.out.println("statTest called");
 
-
 	}
+
+}
+
+interface mood {
+
+}
+
+interface interfaceTest3 {
+
+}
+
+class House {
+
+}
+
+class Building {
 
 }
