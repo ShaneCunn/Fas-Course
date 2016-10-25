@@ -1,6 +1,6 @@
 package com.ThirtyEight;
 
-public class Animal {
+public class Animal2 {
 
 	int age;
 
@@ -10,11 +10,10 @@ public class Animal {
 
 	// initialiser , they are used for giving values to instance variable or
 	// running code before a constructor
-	// Static init alway comes before an ordinary init
+	// Static init always comes before an ordinary init
 
 	{
 		// Ordinary initialiser
-	
 
 		age = 4;
 		name = "sally";
@@ -23,8 +22,7 @@ public class Animal {
 
 	}
 
-	static {	{// Static initialiser  is laways called first
-
+	static { // Static initialiser is always called first
 
 		groupid = 0;
 
@@ -32,9 +30,20 @@ public class Animal {
 
 	}
 
-	Animal() {
+	static {
+
+		System.out.println(" second initiailiser called");
+	}
+
+	Animal2() {
 
 		System.out.println("animal construtor called!");
+		
+		groupid+=1;
+		
+		System.out.println("group id number is : " + groupid);
+
+		
 
 	}
 }
