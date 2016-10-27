@@ -18,6 +18,8 @@ public class Main {
 		freddy.jealous();// overridden
 
 		freddy.nervous();
+		
+		System.out.println(" this will print out the static variable" + Trainee.courseCode+ Trainee.test);
 
 	}
 
