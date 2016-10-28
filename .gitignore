@@ -160,3 +160,5 @@ fabric.properties
 *.xml
 fas1/fas1.iml
 *.iml
+Servers/Tomcat v8.5 Server at localhost-config/catalina.policy
+*.properties
