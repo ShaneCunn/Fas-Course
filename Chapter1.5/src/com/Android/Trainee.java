@@ -2,8 +2,8 @@ package com.Android;
 
 public class Trainee {
 
-	int age;
-	String pps;
+	int age = 34;
+	String pps = "3426534k";
 
 	/*
 	 * this is a static variable , also called a class variable , the correct
@@ -18,14 +18,25 @@ public class Trainee {
 	static int courseCode = 12;
 
 	static int test = courseCode;
+	static String courseaddress = "galway";
 
 	static void statmethod() {
 
+		/*
+		 * you can't access instance variable , only static
+		 * 
+		 * 
+		 * System.out.println("age is " + age + "pss num is: " + pps +
+		 * "course code is:" + courseCode + "course addres is: " +
+		 * courseaddress);
+		 */
+
 	}
-	
-	void ordMethod(){
-		
-		
+
+	void ordMethod() {
+
+		System.out.println("age is " + age + "pss num is: " + pps + "course code is:" + courseCode
+				+ "course addres is: " + courseaddress);
 	}
 
 }

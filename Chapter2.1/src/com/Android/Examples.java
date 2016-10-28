@@ -1,5 +1,7 @@
 package com.Android;
 
+import java.math.BigDecimal;
+
 public class Examples {
 
 	static void ex2() {
@@ -78,6 +80,76 @@ public class Examples {
 		int newbiNum = 0x2_323; // you can in the numbers afterwards
 
 		System.out.println(" new underscore number: " + newbiNum);
+
+		// int testnum = Integer.parseInt("1234");
+
+		// System.out.println("parse num1 :" + testnum);
+
+		/*
+		 * 
+		 * these are called parsers and convert text to numbers or booleans, but
+		 * not Characters
+		 */
+
+		int binVal = 0b100001011;
+
+		System.out.println("binval = :" + binVal);
+
+		BigDecimal test = new BigDecimal(3.2131321312442131212413413412);
+
+		System.out.println("bigdecimal = " + test);
+
+		float fnum = 45.67f;
+		double dnum = 45.767;
+		float fnum2 = (float) dnum;
+
+		double dnum2 = (double) fnum;
+
+		double dnum3 = 3.54D;
+
+		/*
+		 * Rules:
+		 * 
+		 * you can't use floating point literal as decimal place , and you can't
+		 * at the end of the number either
+		 * 
+		 * 
+		 */
+
+		char charTest = 't';
+
+		System.out.println("char output " + charTest);
+		System.out.println("char output " + charTest);
+
+		System.out.println("char output " + charTest);
+		char c4 = '\u058D';
+
+		System.out.println("unicode " + c4 + " test");
+
+		/*
+		 * you can cast, but you shouldn't
+		 * 
+		 * 
+		 * 
+		 */
+
+		int _test_;// you can have a underscore anywhere
+		int £$€; // currency symbols anywhere
+		/*
+		 * invalid identifiers //variable can't start with number.
+		 * 
+		 * int 7um;
+		 * 
+		 * 
+		 * no dashes allowed , anywhere
+		 * 
+		 */
+
+		// you can define and initialise them as many variable as the same type
+		// ,
+		// as you like , on the same line
+
+		int num = 23, num2 = 45;
 
 	}
 
