@@ -13,7 +13,7 @@ public class ThirtyEightMain {
 
 		System.out.println("testout for 38");
 
-		Animal bob = new Animal();
+		//Animal bob = new Animal();
 
 		/*
 		 * Brand new for Java 8
