@@ -135,54 +135,97 @@ public class Examples {
 		num = ++a + ++b;
 
 		System.out.println(" num is now : " + num);
-		
-		a = 10; b= 100;
-		
-		num = ++a - b++;
-		
-		System.out.println(" num is now : " + num);
-		
-		a = 10; b= 100;
 
-		
+		a = 10;
+		b = 100;
+
+		num = ++a - b++;
+
+		System.out.println(" num is now : " + num);
+
+		a = 10;
+		b = 100;
+
 		num = ++a + b++ + b;
 
 		System.out.println(" num is now : " + num);
 
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		a = 10;
+		b = 100;
 
+		num = a-- + b-- + ++b - --a;
 
+		System.out.println(" big num is now : " + num);
+
+		a = 10;
+		b = 100;
+
+		num = ++a + --a + a++ + a - ++b + b + b--;
+
+		System.out.println(" big num is now : " + num);
+
+		a = 10;
+		b = 100;
+
+		num = a-- + b++ - a + b + ++a - --a;
+		System.out.println(" big num is now : " + num);
+		System.out.println(a + ", " + b + ", " + num);
+
+		num = num++ - a++ + --b + b + ++num;
+		System.out.println(a + ", " + b + ", " + num);
+		System.out.println(" big num is now : " + num);
+
+		char char1 = 'a'; // lower case is 97 in ascii
+
+		System.out.println(char1 + char1);
+
+		// char myChar = char1 + char1; will not work, as it trying to fit two
+		// char together
+
+		System.out.println(char1 * char1); // it will becoming a type int,
+											// automatically
+
+		// you can use all arithmetic operators with char
+
+	}
+
+	static void widening() {
+		byte a = 2, b = 4;
+
+		// short snum = a + b;
+
+		int num = a + b; // this is a now a int
+
+		long lnum = 678l;
+
+		// you always widen to the largest datatype, which is a long in this
+		// case.
+
+		lnum = num + a + b;
+
+		System.out.println(lnum);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
 		
 
 	}
+
 }
