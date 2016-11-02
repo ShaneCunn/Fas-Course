@@ -35,7 +35,7 @@ class Examples {
 
 		ArrayList<Dog> dogList = new ArrayList<Dog>();
 
-		dogList.add(22, "rex");
+	//	dogList.add(22, "rex");
 
 	}
 
@@ -60,40 +60,15 @@ class Examples {
 
 		char mychar2 = 'y';
 
+		// there is a super class called Number,
 		// wrapper classes numbers - integers, double, floats etc are inherited
 		// from the numbers class.
-		
-		
-		
+
 		ArrayList<Number> numlist2 = new ArrayList<Number>();
 		
-		
+		// wrapper classes are used for all the methods available to it, and you can't 
+
 		numlist2.add(Dnum);
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 
 	}
 
