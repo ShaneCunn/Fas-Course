@@ -6,6 +6,8 @@ public class Main {
 
 		System.out.println("chapter 2.4");
 		Examples.assignmentOper();
+
+		Examples.ArithmeticOperators();
 	}
 
 }
