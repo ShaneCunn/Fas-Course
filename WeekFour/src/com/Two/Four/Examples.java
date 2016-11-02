@@ -191,7 +191,7 @@ public class Examples {
 
 	static void widening() {
 		byte a = 2, b = 4;
-
+		int counter = 0;
 		// short snum = a + b;
 
 		int num = a + b; // this is a now a int
@@ -204,6 +204,22 @@ public class Examples {
 		lnum = num + a + b;
 
 		System.out.println(lnum);
+
+		double dnum = 4.5;
+
+		dnum = dnum + num + a + b;
+
+		System.out.println(++counter + " dnum " + dnum);
+		
+		
+		byte b3 = 5, b4 =9;
+		
+		a = 10;
+		b = 100;
+		num = ++a  + a + + --a - --a + a++;
+		
+		System.out.println(" the  num is now : " + num);
+
 		
 		
 		
