@@ -147,7 +147,63 @@ public class Examples {
 
     static void compareWrapper(){
 
-        
+
+        Integer number1 = new Integer(10);
+        Integer number2 = new Integer(10);
+
+
+        System.out.println(number1.equals(number2)); // check to see if the same values
+        System.out.println(number1 == number2); // check to see if its the object
+
+        /*
+        * whenever you use a constructor it always creates a new object ie wrappers
+        * below will print true as they are both 10, but the second will print false as it they are different objects
+        *
+        * */
+
+        number1 = number2;
+
+        number1++;
+
+        System.out.println(number1 == number2); // check to see if its the object which will be in this case ie true
+
+        /*
+        *  this add 1 to number1,  however integer is immutable  and cannot change,
+        *  so that means that number1 is not a new object
+        *
+        * */
+
+
+        Integer number3 = 12;
+        Integer number4 = 12;
+
+/*
+*  if you are assigning a number directly to a wrapper ,
+*  in the range of -128 to 127 and you use to two wrapper, in the smae range,
+*  it will point to the same object
+*
+* */
+        System.out.println("checking values " + number3.equals(number4));//will print true as they are both equal
+
+        /*
+        *
+        *  same values but different objects
+        * */
+        System.out.println("Checking equilvalance " + (number3 == number4));
+        Integer number5 = 12;
+        Integer number6 = 12;
+
+
+        Byte myByte = new Byte((byte)2);
+        int i3 = new Integer(2);
+        System.out.println("test out before");
+        System.out.println( i3 == myByte);
+
+
+
+
+
+
     }
 }
 
