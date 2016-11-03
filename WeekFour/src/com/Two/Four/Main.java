@@ -9,7 +9,11 @@ public class Main {
 
 		// Examples.ArithmeticOperators();
 
-		Examples.widening();
+		//Examples.widening();
+		
+		//Examples.relationalOperators();
+
+		Examples.logicalOperator();
 	}
 
 }
