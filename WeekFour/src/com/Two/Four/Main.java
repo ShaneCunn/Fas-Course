@@ -13,7 +13,9 @@ public class Main {
 		
 		//Examples.relationalOperators();
 
-		Examples.logicalOperator();
+		//Examples.logicalOperator();
+
+		Examples.precedence();
 	}
 
 }

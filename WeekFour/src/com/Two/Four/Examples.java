@@ -314,11 +314,11 @@ public class Examples {
         /* && are called short circuit operators , if the first part evalautes to false ,
          it does not  bother with the second or subsequent ones */
 
-    /* & ensure both sisdes are evaluated and are impletmented, even if  the first argument is false,
-    *so here is incremetneted by one
-    *
-    *
-    */
+        /* & ensure both sisdes are evaluated and are impletmented, even if  the first argument is false,
+        *so here is incremetneted by one
+        *
+        *
+        */
         System.out.println(a > 20 & ++a < 100);
 
 
@@ -336,6 +336,37 @@ public class Examples {
     static void precedence(){
 
 
+        int num2 = 3, num3 = 5, sum;
+
+
+        sum = num2 + num3 * num2 / num3 + num2;
+
+
+        System.out.println("The first sum is: " + sum);
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
