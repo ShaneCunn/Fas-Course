@@ -338,11 +338,66 @@ public class Examples {
 
         int num2 = 3, num3 = 5, sum;
 
-
         sum = num2 + num3 * num2 / num3 + num2;
 
+        System.out.println("The first sum is: " + sum);
+
+
+        num2 = 3;
+        num3 = 5;
+
+        sum = num3 - num2 * (num2 + num3) / num2;
 
         System.out.println("The first sum is: " + sum);
+
+
+        num2 = 3;
+        num3 = 5;
+
+        sum = num2 = num2 + num3 * num2;
+
+        System.out.println("The first sum is: " + sum);
+
+
+        num2 = 3;
+        num3 = 5;
+        sum = num2 + (num2 + num3) * num2 + ++num3;
+
+        System.out.println("The num3 is: " + num3);
+        System.out.println("The first sum is: " + sum);
+
+        num2 = 3;
+        num3 = 5;
+        sum = num2 += num3 * (++num2 + num3);
+
+        System.out.println("The num2 is: " + num2);
+        System.out.println("The first sum is: " + sum);
+
+
+        num2 = 3;
+        num3 = 5;
+
+        sum = num2 += num3 * (++num2 + num3);
+        //sum += num2;
+        System.out.println("The num2 is: " + num2);
+        System.out.println("The first sum is: " + sum);
+
+
+        num2 = 3;
+        num3 = 5;
+
+        //sum = num;
+        //sum += num2;
+        System.out.println(num3++ >= 6 | ++num2 > 3 && num3++ >= 5);
+        System.out.println("num2 is " +num2 + " num3 is "+ num3);
+
+
+    }
+
+    static void wrapper(){
+
+
+
     }
 
 }
