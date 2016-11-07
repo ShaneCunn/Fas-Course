@@ -8,14 +8,10 @@ public class Phone2 {
     String phonenumber = "123456789";
 
     void setNumber() {
-
-
         String phonenumber;
         phonenumber = "987654321";
 
-
     }
-
 
 }
 
