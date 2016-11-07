@@ -18,4 +18,24 @@ public class Person {
     Person(int age) {
         this.age = age;
     }
+
+    void outOfScope() {
+
+
+        /*
+        * outside of the brackets phil  is liable for garbage collection, as we can no longer access this
+        * */
+
+        {
+
+            Person phil = new Person();
+
+            System.out.println(phil);
+        }
+
+        // phil is inaccessible
+
+
+
+    }
 }

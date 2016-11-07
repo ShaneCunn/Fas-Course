@@ -34,7 +34,7 @@ public class Main {
         // you can't reference this, it has no name , its still created and is liable for garage collection
 
 
-        Person paul = new Person();
+      /*  Person paul = new Person();
 
         Person peter = new Person();
 
@@ -43,7 +43,24 @@ public class Main {
         peter = new Person();
 
         patsy = peter;
+        paul = new Person(); */
+
+        Person paul = new Person();
+
+        paul = null;
+
         paul = new Person();
+
+        Person peter = new Person();
+
+        peter = paul;
+        // creates 2 exam objects
+        Exam maths = new Exam("maths"); // X
+
+        Exam english = new Exam("english"); // Y
+
+
+        maths.setExam(english);
 
     }
 }
