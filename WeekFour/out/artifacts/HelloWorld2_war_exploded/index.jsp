@@ -1,4 +1,5 @@
-<%@ page import="java.util.Date" %><%--
+<%@ page import="java.util.Date" %>
+<%--
   Created by IntelliJ IDEA.
   User: shane
   Date: 07/11/2016
