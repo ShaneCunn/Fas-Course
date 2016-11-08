@@ -13,8 +13,12 @@ public class Main {
 
 
     public static void main (String args[]){
+        Animal myAnimal = new Animal();
 
+        // printlc() is a overloaded  method that can take any data type and any object
+        System.out.println(myAnimal);
 
-
+        Dog fred = new Dog();
+        fred.drink();
     }
 }

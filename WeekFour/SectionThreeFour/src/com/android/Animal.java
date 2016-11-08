@@ -30,11 +30,31 @@ public class Animal {
 
     }
 
+    // this is private and is only available inside the animal class
     private void eat(int num, String str) {
 
 
     }
 
+    void drink() {
+
+        System.out.println("Animal drinking ");
+    }
+
+}
+
+class Dog extends Animal {
+
+    void drink(int num) {// overloaded drink method
+
+
+    }
+
+
+    void drink() { // overriding  the drink() method in the animal class that has no parameters
+
+
+    }
 
 }
 
