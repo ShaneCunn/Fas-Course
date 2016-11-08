@@ -53,6 +53,11 @@ class Dog extends Animal {
 
     void drink() { // overriding  the drink() method in the animal class that has no parameters
 
+        System.out.println("Dog Drinking");
+
+        // overloaded or a subclass ie dog is subclass of a an animal
+
+        // overriding has to be in own class
 
     }
 

@@ -20,5 +20,44 @@ public class Main {
 
         Dog fred = new Dog();
         fred.drink();
+
+        Phone sammie = new Phone();
+        double dnum = 2;
+        int num = 3;
+        //sammie.call(2, 3.0);  this will not as it can't determine which call methods to use as one
+        // takes a double and an int the other takes a int and a double
+        //
+        sammie.call(dnum, num);
+        Message myMessage = new Message();
+
+        Tablet myTablet = new Tablet();
+
+        myMessage.read(new Tablet());
+
+        myMessage.read(new PC());
+
+        myMessage.read(new Phone());
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
