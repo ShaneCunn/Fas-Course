@@ -62,5 +62,10 @@ public class Main {
 
         maths.setExam(english);
 
+        if(null == null){
+
+
+        }
+
     }
 }
