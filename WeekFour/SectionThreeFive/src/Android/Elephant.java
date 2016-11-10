@@ -1,4 +1,4 @@
-package com.Android;
+package Android;
 
 /**
  * Created by shane on 08/11/2016.

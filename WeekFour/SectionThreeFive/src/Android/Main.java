@@ -1,4 +1,4 @@
-package com.Android;
+package Android;
 
 /**
  * Created by shane on 08/11/2016.
@@ -21,6 +21,14 @@ public class Main {
     Cat bob = new Cat(12);
 
     Cat peter = new Cat(12,"peter",4.5);
+    Donkey trump = new Donkey(12, "Trump", 4.5);
+
+
+    // trump.
+    Human fred = new Human(67, "ferd", 67.7, true);
+
+  //  Cow bessie = new Cow();
+
 
 
 }
