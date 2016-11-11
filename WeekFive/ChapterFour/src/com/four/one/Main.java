@@ -18,5 +18,9 @@ public class Main {
         TimeZone tz = TimeZone.getTimeZone("America/Los_Angeles");
 Examples.ex1();
 
+        Examples.ex2();
+
+        Examples.ex3();
+
     }
 }
