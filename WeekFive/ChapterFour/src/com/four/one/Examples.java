@@ -147,8 +147,47 @@ public class Examples {
         System.out.println(day);
 
         System.out.println("  Monday   ".replace('d', 'z').trim().concat("men"));
+        day = "monday";
+
+        String newDay = day.replace("m", "T").concat("Day").substring(2, 6);
+        System.out.println(newDay);
+
+
+        String letters = "ABCAB";
+
+        //System.out.println(letters.substring(0, 2).startsWith('A'));
+
+
+        String str = " hello there nice to meet you ";
+        // gets rid of spaces
+        str = str.trim();
+        // sets the counter to zero
+        int spaceCount = 0;
+
+        // loop through the lenght of the string array
+        for (int i = 0; i < str.length(); i++) {
+            // if the char is a space
+            if (str.charAt(i) == ' ') {
+                // increment the space counter by one
+                spaceCount++;
+
+
+            }
+        }
+
+        System.out.println(str.length());
+        System.out.println(spaceCount);
+
+        System.out.println("letter count is : " + str.replaceAll(" ", "").length());
+
+        System.out.println("letter count is : " + (str.length() - spaceCount));
+        int words = spaceCount;
+
+        System.out.println("Word count is " + (spaceCount + 1));
+
 
     }
+
 
 }
 
