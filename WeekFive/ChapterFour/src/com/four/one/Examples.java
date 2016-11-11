@@ -116,8 +116,38 @@ public class Examples {
         // can't mix and match
 
         // System.out.println(str3.replace('f', "Wolf"));
+        //startwith and endwith
+        String str4 = "ABCAB";
 
-        
+
+        System.out.println(str4.startsWith("AB"));
+
+        System.out.println(str4.endsWith("B"));
+
+        System.out.println(str4.startsWith("A", 3));
+
+        // endwith does not allow you to search from a certain position
+
+        //  System.out.println(str4.endsWith("A", 3));
+
+        name = "JOE";
+
+        String name2 = "joe";
+//String test2= name2.toUpperCase();
+        //System.out.println(name.equals(test2));
+
+        System.out.println(name.equalsIgnoreCase(name2));
+
+
+    }
+
+    static void ex4() {
+//method Chaining
+        String day = "  sunday   ".replace('d', 'z').trim().concat("men");
+        System.out.println(day);
+
+        System.out.println("  Monday   ".replace('d', 'z').trim().concat("men"));
+
     }
 
 }
