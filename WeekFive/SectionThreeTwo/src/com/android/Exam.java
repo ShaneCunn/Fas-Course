@@ -18,7 +18,7 @@ public class Exam {
 
     String name;
 
-    // constrcutor
+    // constructor
     Exam(String name) {
 
         this.name = name;
