@@ -5,6 +5,15 @@ package com.section.section.three;
  */
 public class Dog {
     double Weight = 7.8;
+
+    @Override
+    public String toString() {
+        return "Dog{" +
+                "Weight=" + Weight +
+                ", hieght=" + hieght +
+                '}';
+    }
+
     double hieght = 4.5;
 
 

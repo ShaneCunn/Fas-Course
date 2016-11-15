@@ -125,9 +125,82 @@ public class Examples {
 
     static void ex7() {
 
+        Behaviour[] behaviourArray = new Behaviour[4];
+
+
+        //  Behaviour behave = new Behaviour()
+
+
+        Behaviour behaveEMP = new Employee();
+        // this will access the emp impletmention of the happy, sad, and mad() methods
+        behaveEMP.happy();
+        behaveEMP.mad();
+        behaveEMP.sad();
+        // you can only access these methods
+        // when declaring a var of type interface , you can only assign an object that implement that interface to it
+        // in this case a refer of type behaviour can ony be assigned to an employee or person object
+        //as both these classes implement behaviour
+
+
+        Behaviour[] behaveList = new Behaviour[3];
+        // when you have an array of type interface you can only pop this array with objects whosse classes impletment this interface
+
+
+        behaveList[0] = new Person();
+        behaveList[1] = new Employee();
+        behaveList[2] = new Person();
+
+        for (int i = 0; i < behaveList.length; i++) {
+
+            behaveList[i].sad();
+            behaveList[i].happy();
+
+            behaveList[i].mad();
+
+        }
+
 
     }
+
+    static void ex8() {
+        Object obj = new Object();
+
+        // the object class is the super class of all other classes in JAVA
+
+        obj.toString();
+
+        // one of the methods is  the toString methods , insert any data type or object into a print statement
+
+        System.out.println(obj.toString());
+        System.out.println(obj);
+
+
+        Cat tibbles = new Cat();
+        // this is going to use the toString method from the object classe
+        System.out.println(tibbles);
+
+        Dog spot = new Dog();
+
+        System.out.println(spot);
+
+        // using the overridden toString method
+
+        // when you have a super class refere to subclass object, you can only access object first defined first in the super class
+        // in this case the CAt,  it takes impletmention from the object
+        // the dog does have it own impletmentation , so it will use this toString method.
+        Object objCat = new Cat();
+
+        Object objDog = new Dog();
+
+
+    }
+
+
+
+
+
 }
+
 
 
 
