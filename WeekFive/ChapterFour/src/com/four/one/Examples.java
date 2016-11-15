@@ -189,6 +189,38 @@ public class Examples {
     }
 
 
+    static void ex5() {
+
+
+        String poet = "Wordsworth";
+        // str is = to Words
+        String str1 = poet.substring(0, 5);
+
+        String str2 = poet.substring(0, 5);
+
+        // the both return Words ie equal
+
+        System.out.println(str1.equals(str2));
+        // this will print out false as they are both new strings
+        System.out.println(str1 == str2);
+
+        String str3 = "Words";
+
+        // words is now in the string pool
+
+        System.out.println(str2 == str3);
+
+        String str4 = "Words";
+
+        // this checks the ppol for the words "Words", if it is in the pool it will assign this to str4s
+
+        System.out.println(str3 == str4);
+
+        
+
+
+    }
+
 }
 
 
