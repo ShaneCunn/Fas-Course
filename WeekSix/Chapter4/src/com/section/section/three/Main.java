@@ -11,7 +11,24 @@ public class Main {
 
 
         System.out.println("test out");
+
+        Examples bob = new Examples();
+
+        // Examples.ex4();
+
+        Employee fred = new Employee();
+
+        fred.happy();
+        fred.sad();
+        fred.mad();
+
+
+        //Examples.ex5();
+
+        Examples.ex6();
     }
+
+
 }
 
 
