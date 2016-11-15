@@ -10,7 +10,14 @@ public class GuessingNumberGame {
 
 
 
-        
 
+
+    }
+    int add;
+    public int add(int add){
+
+        this.add = add;
+
+        return add;
     }
 }
