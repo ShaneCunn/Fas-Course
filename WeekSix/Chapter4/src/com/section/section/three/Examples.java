@@ -91,7 +91,7 @@ public class Examples {
         };
         // if you have an array of a ABS type you can populate the array with concrete classes that inherit from this this abstract
         // in our case its hipp and monkeys
-
+// these object can only access  methods that were overridden
         Animal[] animalList = new Animal[5];
         hippo henry = new hippo();
         animalList[0] = new hippo();
@@ -104,9 +104,26 @@ public class Examples {
 
 
         for (int i = 0; i < animalList.length; i++) {
-
+            System.out.println("age is " + animalList[i].age);
             animalList[i].drink();
+            animalList[i].eat();
         }
+
+        collie bob = new collie();
+        collie rex = new collie();
+        cockSpaniel hunter = new cockSpaniel();
+
+        Dog[] dogList = {bob, rex, hunter, new Dog()};
+        // this is an array of dogs, so it can be popl with all  the breeds of dog,
+        // which inherits from the dog cclass, and also can have Dogs in it
+
+        // collie[] collieList ={bob, rex, new Dog()}
+        // this will not work as it takes collies and oyu can't put in a superclass object into an array that only accepts
+        // a subclass, this array can only takes collies , and a og can only could be cocker spaniel or collie
+        //so this array cannot take cocker spaniels either
+    }
+
+    static void ex7() {
 
 
     }

@@ -9,3 +9,13 @@ public class Dog {
 
 
 }
+
+class collie extends Dog {
+
+
+}
+
+class cockSpaniel extends Dog {
+
+
+}
