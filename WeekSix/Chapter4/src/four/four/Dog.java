@@ -3,7 +3,13 @@ package four.four;
 /**
  * Created by shane on 15/11/2016.
  */
-public class Dog {
+
+class Animal {
+
+    double weight;
+}
+
+public class Dog extends Animal {
 
     int age;
     String name;

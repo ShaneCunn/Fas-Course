@@ -61,6 +61,58 @@ public class Examples {
 
         }
 
+        intList.add(2, 56);
+
+        for (int y : intList) {
+
+            System.out.println("numbers are : " + y);
+            System.out.println("last number is :" + intList.get(intList.size() - 1));
+
+        }
+
+        Dog spot = new Dog();
+        Dog rex = new Dog();
+
+        ArrayList<Dog> dogList = new ArrayList<>();
+
+        dogList.add(spot);
+        dogList.add(rex);
+
+        Cat bob = new Cat(4, "bob");
+
+
+        Cat fred = new Cat(90, "fred");
+
+        Cat peter = new Cat(7, "peter");
+
+        Cat tomcat = new Cat(5, "tomcat");
+
+
+        ArrayList<Cat> catList = new ArrayList<>();
+
+        catList.add(bob);
+        catList.add(fred);
+        catList.add(peter);
+        catList.add(tomcat);
+
+        for (Cat y : catList) {
+
+            System.out.println(y);
+        }
+
+        ArrayList<Animal> animalList = new ArrayList<>();
+
+        animalList.add(rex);
+        animalList.add(spot);
+        animalList.add(bob);
+        animalList.add(fred);
+
+        System.out.println(animalList);
+
+
+
+
+
 
     }
 }
