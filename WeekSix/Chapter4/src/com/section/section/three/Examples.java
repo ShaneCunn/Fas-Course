@@ -187,17 +187,66 @@ public class Examples {
 
         // when you have a super class refere to subclass object, you can only access object first defined first in the super class
         // in this case the CAt,  it takes impletmention from the object
-        // the dog does have it own impletmentation , so it will use this toString method.
+        // the dog does have it own impletmentation, so it will use this toString method.
         Object objCat = new Cat();
 
         Object objDog = new Dog();
 
+        // this array can take any object
+        Object[] objArray = new Object[4];
+
+        objArray[0] = new hippo();
+        objArray[1] = new String("Hello");
+        objArray[2] = new Person();
+        objArray[3] = new Integer(2);
+
+        for (int i = 0; i < objArray.length; i++) {
+
+
+        }
+
+
+    }
+
+    static void ex9() {
+
+        Dog[] dogArray2 = {new Dog(), new Dog(), new Dog(), new Dog()};
+
+        dogArray2[2] = null; // it is not a an error to assign to array
+
+        // our list is equal to dog, dog, null ,dog
+        for (int i = 0; i < dogArray2.length; i++) {
+
+            // System.out.println(dogArray2.toString());
+
+            System.out.println(dogArray2[i].hieght);
+
+
+        }
 
     }
 
 
+    static void ex10() {
+
+// Asymmetrical mutlidimensional Array
 
 
+        String[][] twoDarray = new String[2][3];
+
+        String mutli[][] = new String[][]{
+                {"mary", "pat"}, // 2 column
+                {"john"}, // 1 column
+                {"lighter", "shane", "greater", "weird"} //4 column
+
+
+        };
+        int[] numArray ={23,34,56,67};
+
+        System.out.println(numArray.length);
+        String [] str = {"mary had a little lamb"};
+        System.out.println(str.length);
+    }
 
 }
 

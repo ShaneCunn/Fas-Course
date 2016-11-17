@@ -10,7 +10,22 @@ public class Main {
         // you have to use a wrapper classes , ie Integer, Double,Boolean, and so on
 
 
+        //Examples.ex1();
 
-        Examples.ex1();
+        // Examples.ex2();
+
+        // Examples.ex3();
+
+        // Examples.ex4();
+        // Examples.ex5();
+
+       // Examples.ex6();
+
+       // Examples.test4();4
+
+        Examples.ex9();
+
+
+
     }
 }

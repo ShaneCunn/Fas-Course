@@ -46,7 +46,7 @@ class GuessingNumberGame {
                 System.out.println("your number is lower");
                 System.out.println("Please try again: ");
                 guess = keyboard.nextInt();
-            } else { // else do this , ie the right number was guessed 
+            } else { // else do this , ie the right number was guessed
 
                 System.out.println("Congratulations you won");
                 test = true;

@@ -28,4 +28,10 @@ public class Cat extends Animal {
 
     }
 
+    void eat() {
+
+        System.out.println(name + " eating");
+
+    }
+
 }

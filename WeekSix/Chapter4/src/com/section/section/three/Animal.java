@@ -5,6 +5,8 @@ package com.section.section.three;
  */
 public abstract class Animal {
     int age = 5;
+
+    int test5;
     void eat() {
 
 
