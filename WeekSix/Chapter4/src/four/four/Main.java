@@ -10,7 +10,7 @@ public class Main {
         // you have to use a wrapper classes , ie Integer, Double,Boolean, and so on
 
 
-        //Examples.ex1();
+        Examples.ex1();
 
         // Examples.ex2();
 
@@ -23,7 +23,7 @@ public class Main {
 
        // Examples.test4();4
 
-        Examples.ex9();
+      //  Examples.ex9();
 
 
 

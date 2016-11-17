@@ -56,10 +56,19 @@ public class Examples {
         intList.add(4);
         intList.add(new Integer(5));
 
+
+        System.out.println("print out last index using different method");
+
+        System.out.println("last number is : " + intList.lastIndexOf(intList.size()));
+
         for (int y : intList) {
 
             System.out.println("numbers are : " + y);
-            System.out.println("last number is :" + intList.get(intList.size() - 1));
+            System.out.println("last number is : " + intList.get(intList.size() - 1));// get the last index of the arraylist
+            // and print it out
+
+
+
 
         }
 
@@ -375,7 +384,7 @@ public class Examples {
 
         System.out.println(strList.contains("one"));
 
-         
+
     }
 }
 

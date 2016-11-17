@@ -39,8 +39,8 @@ class GuessingNumberGame {
 
                 System.out.println("your number is higher");
                 System.out.println("Please try again: ");
-
                 guess = keyboard.nextInt();
+
             } else if (randNum > guess) {// if randnum is  higher than guess then do this
 
                 System.out.println("your number is lower");
