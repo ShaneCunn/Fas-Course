@@ -6,28 +6,47 @@ package com.shane.cunningham;
 public class Star {
 
 
-    public static void starTest(int size) {
+    public static void StarGenerator(int size) {
 
 
         int i, j, k;
+
         for (i = 1; i <= size; i++) { // outer loop through until it is less than or equal to the size variable
-            for (j = i; j < size; j++) {// use the loop to add a spaces
-                System.out.print(" ");
+
+            j = i; // set j to 1
+            while (j < size) {
+
+                System.out.print(" "); // print out a space
+                j++; // increase j by 1
+
             }
-            for (k = 1; k < (i * 2); k++) {// uses the loop to add *  multi by 2
-                System.out.print("*");
+
+            k = 1;
+            while (k < i * 2) { // loop through while less than var i multi by 2
+                System.out.print("*"); // print out a star
+                k++; // increase k by 1 each loop
             }
+
             System.out.println();// print a new line at the end of the loop
         }
         for (i = (size - 1); i >= 1; i--) {// outer loop through until it is greater than or equal to the size variable,
             // keep decreasing  j
-            for (j = size; j > i; j--) {
-                System.out.print(" ");
+
+
+            j = size; // set j to equal size variable
+            while (j > i) {// while j is greater than i , keeps looping
+
+                System.out.print(" "); // print a space
+                j--; // decreases j by 1
             }
-            for (k = 1; k < (i * 2); k++) {// uses the loop to add *  multi by 2
-                System.out.print("*");
+
+
+            k = 1; // set  k to 1,
+            while (k < i * 2) {
+                System.out.print("*"); //  print out a star
+                k++; // increase k by 1
             }
-            System.out.println();
+            System.out.println();// print out a new line
         }
     }
 }

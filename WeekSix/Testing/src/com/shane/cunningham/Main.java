@@ -24,7 +24,7 @@ public class Main {
             System.out.println("you entered a even number \nPlease enter a odd number: ");
             size = keyboard.nextInt(); // reset the int size variable
         }
-        Star.starTest(size); // calls the startest method and pass the size variable to it
+        Star.StarGenerator(size); // calls the Star generator  method and pass the size variable to it
 
     }
 }
