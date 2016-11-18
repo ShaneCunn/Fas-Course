@@ -1,6 +1,7 @@
 package com.section.section.Six;
 
 import java.time.LocalDate;
+import java.time.LocalTime;
 import java.time.Month;
 
 /**
@@ -51,7 +52,49 @@ public class Example {
         System.out.println("new xam date " + xmas);
 
         //LocalDate test1 = xmas.getDayOfYear();
-        
+
+        // plus dates
+        date1 = LocalDate.of(2016, 12, 27);
+        System.out.println(date1.plusDays(4));
+        System.out.println(date1.plusWeeks(5));
+        System.out.println(date1.plusMonths(7));
+        System.out.println(date1.plusYears(2));
+
+
+        date1 = LocalDate.of(2016, 12, 27);
+
+
+        System.out.println(date1.withDayOfMonth(21));
+        System.out.println(date1.withDayOfYear(21));
+        System.out.println(date1.withMonth(10));
+        System.out.println(date1.withYear(2555));
+
+        date1 = LocalDate.of(2016, 12, 27);
+        System.out.println(date1.atTime(10, 23, 56));
+        date1.atTime(10, 23, 56);
+
+
+        System.out.println(date1.atTime(0, 0, 30));
+
+        System.out.println(date1.atTime(0, 0, 30, 0000000000011));
+
+
+        System.out.println(date1.atTime(LocalTime.of(16,30)));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
