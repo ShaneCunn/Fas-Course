@@ -3,7 +3,7 @@ package com.shane.cunningham.assignment2;
 /**
  * Created by shane on 17/11/2016.
  */
-public class Star {
+class Star {
 
 
     public static void StarGenerator(int size) {
