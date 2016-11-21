@@ -11,28 +11,23 @@ class Diamond {
             System.out.print("*"); // print out a bottomLoop
             k++; // increase k by 1 each loop
         }
-
     }
 
     void top(int jVar, int size) {
         while (jVar < size) {
-
         System.out.print(" "); // print out a space
             jVar++; // increase j by 1
 
         }
-
     }
 
 
     void bottomTop(int size, int i) {
-        int j = size;
-        while (j > i) {
+        while (size > i) {
             System.out.print(" "); // print out a space
-            j--; // increase j by 1
+            size--; // increase j by 1
 
         }
-
     }
 
 }
