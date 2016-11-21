@@ -5,32 +5,27 @@ package com.shane.cunningham.assignment2;
  */
 public class Diamond {
 
-    int star(int star){
-
+    int bottomLoop(int iVar) {
          int k = 1;
-        int i = star;
-        while (k < i  * 2) { // loop through while less than var i multi by 2
-            System.out.print("*"); // print out a star
+        while (k < iVar * 2) { // loop through while less than var i multi by 2
+            System.out.print("*"); // print out a bottomLoop
             k++; // increase k by 1 each loop
         }
-        return star;
+        return iVar;
     }
 
-    int top(int test1, int size){
-
-        int j = test1;
-    while (j < size) {
+    int top(int jVar, int size) {
+        while (jVar < size) {
 
         System.out.print(" "); // print out a space
-        j++; // increase j by 1
+            jVar++; // increase j by 1
 
     }
-    return test1;
+        return jVar;
     }
 
 
     int bottomTop(int size, int i){
-
         int j = size;
         while (j > i) {
             System.out.print(" "); // print out a space
@@ -39,7 +34,5 @@ public class Diamond {
         }
         return size;
     }
-
-
 
 }
