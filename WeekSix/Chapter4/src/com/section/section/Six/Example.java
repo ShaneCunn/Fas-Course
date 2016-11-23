@@ -4,6 +4,8 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.Month;
 import java.time.Period;
+import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
 
 /**
  * Created by shane on 17/11/2016.
@@ -263,6 +265,31 @@ public class Example {
 
 
     }
+
+    static void ex9() {
+
+        DateTimeFormatter eurDate2 = DateTimeFormatter.ofPattern("dd MM yyyy");
+
+        LocalDate myDate2 = LocalDate.parse("01 01 2017", eurDate2); // eurdate is the formatter
+        // we can create a date time or tdate time by passing in a string .
+        // we do this by using the parase method .
+        // the parse method takes a string and a formatter
+        //
+
+        System.out.println("non formatted " + eurDate2);
+
+        System.out.println("formatted" + myDate2.format(eurDate2));
+
+      /*  Format formatter = new SimpleDateFormat("EEEE");
+        String s = formatter.format(new Date());
+        System.out.println(s);*/
+    // it  has to be a valid date, the 1 of janaury is a thur,
+        LocalDate wrong = LocalDate.parse("Wednesday 01 01 2015", eurDate2); // eurdate2 is the formatter
+
+
+
+    }
+
 
 
 }

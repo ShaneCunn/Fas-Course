@@ -17,6 +17,8 @@ public class Main {
         //  Example.ex1();
         // Example.exPeriod();
         // Example.ex2();
-        Example.ex4();
+        //Example.ex4();
+
+        Example.ex9();
     }
 }
