@@ -1,7 +1,5 @@
 package com.shane.cunningham.assignment2;
 
-
-
 import java.util.Scanner;
 
 /**
@@ -10,12 +8,9 @@ import java.util.Scanner;
 public class main2 {
     public static void main(String args []){
 
-        //GuessingNumberGame.guessing();
-
         Scanner keyboard = new Scanner(System.in); // creates a new scanner object called keyboard to take input from the keyboard
 
-        System.out.println("Enter size of star pattern, make sure it a odd number:");
-
+        System.out.println("Enter size of bottomLoop pattern, make sure it a odd number:");
 
         int size = keyboard.nextInt(); // take in a int from the keyboard
 

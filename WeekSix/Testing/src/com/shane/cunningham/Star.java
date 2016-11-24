@@ -21,15 +21,18 @@ public class Star {
 
             }
 
-            k = 1;
-            while (k < i * 2) { // loop through while less than var i multi by 2
+            k = 1;// set  k to 1,
+            int bigger = i * 2;
+
+            while (k < bigger) { // loop through while less than var i multi by 2
                 System.out.print("*"); // print out a star
                 k++; // increase k by 1 each loop
             }
 
             System.out.println();// print a new line at the end of the loop
         }
-        for (i = (size - 1); i >= 1; i--) {// outer loop through until it is greater than or equal to the size variable,
+        int smallerSize = size - 1;
+        for (i = smallerSize; i >= 1; i--) {// outer loop through until it is greater than or equal to the size variable,
             // keep decreasing  j
 
 
@@ -40,9 +43,9 @@ public class Star {
                 j--; // decreases j by 1
             }
 
-
+            int bigger = i * 2;
             k = 1; // set  k to 1,
-            while (k < i * 2) {
+            while (k < bigger) {
                 System.out.print("*"); //  print out a star
                 k++; // increase k by 1
             }
