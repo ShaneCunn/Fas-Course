@@ -15,7 +15,7 @@ public class Star {
 
             Looper.top(i, size);
 
-            
+
             Looper.star(i);
             System.out.println();// print a new line at the end of the loop
         }
