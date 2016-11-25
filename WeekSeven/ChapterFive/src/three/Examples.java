@@ -39,20 +39,21 @@ public class Examples {
         String[][] name2DList = {names1, names2, names3};
 
 
-        for (String[] row : name2DList) {
-
-            System.out.println(Arrays.deepToString(row));
-
-
-        }
-
-
-   /*     for (int rows = 0; rows < name2DList.length; rows++) {
+        for (int rows = 0; rows < name2DList.length; rows++) {
             for (int columns = 0; columns < name2DList[rows].length; columns++) {
+
                 System.out.print(name2DList[rows][columns] + "\n");
             }
             System.out.println();
-        }*/
+        }
+
+        // my enhanced for loop
+        for (String[] row : name2DList) {
+            //   System.out.println();
+            System.out.println(Arrays.deepToString(row).toUpperCase() + "\n");
+
+
+        }
 
 
     }
