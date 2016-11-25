@@ -142,9 +142,135 @@ public class Examples {
             } else {
                 System.out.println("print less than 400 less than 300");
             }
+        } else {
+            System.out.println("Greater than 400");
+
         }
+        // example of code n
+
+        if (score < 400)
+
+            if (score > 300)
+                System.out.println("print greater than 400 greater than 300");
+            else
+                System.out.println("print less than 400 less than 300");
+        else
+            System.out.println("Greater than 400");
+
+
+    }
+
+    static void ex5() {
+
+
+        /*
+        * Ternary Constructs, which are simple if else statements but using the question mark symbol
+        * */
+
+        int age = 18;
+        if (age > 18) {
+
+            System.out.println("you are older than eighteen");
+
+        } else {
+
+            System.out.println("you are under eighteen");
+        }
+
+
+        // Ternary construct has to be assigned to something
+
+        String msg;
+
+        msg = (age > 18) ? "you are over 18" : "you are under 18";
+        System.out.println(msg);
+
+        /*
+        * the first is a boolean,
+        * this is asking is if age greater than 18,
+        * followed by ?
+        * followed by the true part
+        * then the false part
+        *
+        * */
+        int bill = 1900;
+        int discount = (bill > 2000) ? 15 : 20;
+        System.out.println(discount);
+
+        discount = (bill > 200) ? bill - 200 : bill - 300;
+        System.out.println(bill);
+
+        // you can also methods
+        discount = (bill > 4000) ? returnNum() : returnTest();
+        // will not work with method that return nothing
+
+
+        //  discount = (bill > 4000) ? returnnothing() : returnTest();
+
+    }
+
+    static int returnNum() {
+
+        return 10;
+    }
+
+
+    static int returnTest() {
+
+        return 20;
+    }
+
+    static void returnnothing() {
 
     }
 
 
+    static void ex6() {
+        /*or are mandatory,
+        *  all three of part aof a ternary operator
+        *
+        *  1: the boolean operator
+        *  2: the value returned if true
+        *  3: the value returned if false
+        * */
+
+
+        int bill = 200;
+        int qty = 10;
+
+        // can't do this
+        //  int discount = ++qty?10:20;
+
+        //cant omit the else part
+
+        //int discount  = (bill>2000)?15;
+
+        // you can't have code blocks in a ternary
+        //int discount  = (bill>2000)?{bill-200}:bill+200;
+        int total = 9000;
+        Long newDiscoint = (total > 800L) ? 500L : 600L;
+/*
+        Long newDiscoint2 = (total > 800L) ? long(500) : 600L;
+*/
+
+
+    }
+
+
+    static void ex7() {
+        int bill = 2000;
+
+        int qty = 10;
+        int discount = (bill > 1000) ?
+                (qty > 11) ?
+                        10 : 9 // if true
+                : 5; // if false
+
+        System.out.println(discount);
+        int days = 10;
+        discount = (bill > 1000) ? (qty > 11) ? 10 : (days > 9) ? 20 : 30 : 5;
+        System.out.println(discount);
+
+    }
 }
+
