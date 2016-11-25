@@ -140,7 +140,7 @@ public class Examples {
         // my enhanced for loop
         for (String[] row : name2DList) {
             //   System.out.println();
-            System.out.println(Arrays.deepToString(row).toUpperCase() + "\n");
+            System.out.println(Arrays.deepToString(row) + "\n");
 
 
         }

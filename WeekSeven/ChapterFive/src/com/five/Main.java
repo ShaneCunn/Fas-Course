@@ -10,5 +10,8 @@ public class Main {
         //  exam objective 5.1  create and use while and do while loops
 
         Examples.ex1();
+
+
+
     }
 }
