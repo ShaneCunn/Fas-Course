@@ -1,4 +1,4 @@
-package one;
+package com.one;
 
 /**
  * Created by shane on 23/11/2016.
