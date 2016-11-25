@@ -8,4 +8,10 @@ public class HurlingCoach implements Coach{
 		return "Lovely Hurling";
 	}
 
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
