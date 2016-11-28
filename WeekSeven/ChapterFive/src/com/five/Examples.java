@@ -29,7 +29,7 @@ public class Examples {
         }
 
 
-        // will always excute once
+        // will always execute once
         do {
             System.out.println("you are over 18");
             age++;
