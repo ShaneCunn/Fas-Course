@@ -10,7 +10,7 @@ public class Employee extends Person {
     void eat() {
 
         System.out.println("Employee eating");
-
+        super.eat();
 
     }
 
