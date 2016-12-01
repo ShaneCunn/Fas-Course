@@ -14,9 +14,14 @@ public class SetterDemoApp {
 
 		CricketCoach theCoach = context.getBean("myCricketCoach", CricketCoach.class);
 		// call methods on the bean
-		
+
 		System.out.println(theCoach.getDailyworkout());
 		System.out.println(theCoach.getDailyFortune());
+
+		// call the new methods
+
+		System.out.println(theCoach.getEmailAddress());
+		System.out.println(theCoach.getTeam());
 
 		// close the context
 		context.close();
