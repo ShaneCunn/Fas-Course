@@ -20,9 +20,9 @@ public class BeanScopeDemoApp {
 
 		System.out.println("\nsame object: " + result);
 
-		System.out.println("\n memory location the coach: " + theCoach);
+		System.out.println("\nmemory location the coach: " + theCoach);
 
-		System.out.println("\n memory location alpha coach: " + alphaCoach);
+		System.out.println("\nmemory location alpha coach: " + alphaCoach);
 
 		context.close();
 
