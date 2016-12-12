@@ -16,7 +16,6 @@ public interface Calculation {
     }
 
     static int tax(int wages) {
-        int test1 = wages - 200;
-        return test1;
+        return wages - 200;
     }
 }
