@@ -5,8 +5,24 @@ package com.android;
  */
 public class Examples {
 
+    static void ex2() {
 
+        // to see mutiple implementation g
+    }
 
+    static void ex3() {
 
+        Deer bambi = new Deer();
+
+        // deer implements the run interface which extends
+        // the move interface. however it cannot  implement another interface
+
+        bambi.landBased();
+        bambi.runSpeed();
+
+        System.out.println(bambi.testRand);
+        System.out.println(bambi.finalInt);
+        System.out.println(bambi.finalnum);
+    }
 
 }
