@@ -19,6 +19,8 @@ class Cow extends Animal {
     @Override
     void eat() {
         //  super.eat();
+
+        System.out.println("cow eating");
     }
 
     void Drink() {

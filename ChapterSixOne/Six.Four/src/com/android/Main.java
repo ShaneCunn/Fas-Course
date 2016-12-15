@@ -72,5 +72,44 @@ public class Main {
         }
         System.out.println("Other Animals: " + numCount);
 
+        Animal andy = new Animal();
+        Cow daisy = new Cow();
+
+        System.out.println("before casting");
+        andy.eat();
+        daisy.eat();
+/*
+* you can't  cast a an animal to be a cow , but you can cast a cow to be an animal,
+* which is you can't cast a superclass to be a subclass
+* bout you can cast a subclass  to be a superclass
+*
+*
+*/
+
+        andy = (Animal) daisy;
+        andy.eat();
+
+        Behaviour behaveDog = new Dog();
+
+        System.out.println("behavior dog interface");
+
+
+        behaveDog.angry();
+        behaveDog.sad();
+
+
+        Dog myDog = (Dog) behaveDog;
+
+        System.out.println("after casting");
+
+        myDog.Happy();
+        System.out.println(myDog.age);
+
+        // cannot call the method happy()
+        // as happy method is not in the behaviour interface
+
+
+        ((Dog) behaveDog).Happy();
     }
+
 }
