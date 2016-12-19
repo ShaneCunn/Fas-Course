@@ -32,4 +32,20 @@ class Dog extends Animal {
     }
 
 
+    class Terrier extends Dog {
+
+
+        int age = 1000;
+
+        String name = "yappy";
+
+        void accessSuperSuper() {
+            // super().age.super();
+
+            // Animal.super.age;
+
+        }
+    }
+
+
 }

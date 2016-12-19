@@ -28,6 +28,15 @@ public class Main {
 
         pippa.accesSuper();
 
+        //   Ferrai niceCar = new Ferrai();
+
+        //niceCar.
+
+        Vech v1 = new Vech();
+        Vech v2 = new Vech();
+        Vech v3 = new Vech();
+
+        System.out.println(" vech count is : " + Vech.count);
 
     }
 
